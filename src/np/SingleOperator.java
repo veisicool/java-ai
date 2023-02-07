@@ -1,2 +1,6 @@
-package np;public interface SingleOperator {
+package np;
+
+public interface SingleOperator {
+    double call(double a);
+
 }

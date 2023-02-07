@@ -1,5 +1,6 @@
 package np;
 
-public interface Callable<T> {
-    public T call()
+public interface Operator {
+    double call(double a, double b);
 }
+
